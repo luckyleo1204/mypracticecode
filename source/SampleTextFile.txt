@@ -1,0 +1,8 @@
+Counting number of lines, words, characters and paragraphs in a text file using Java
+Counting the number of characters is important because almost all the text boxes that rely on user input have certain limit on the number of characters that can be inserted. For example, the character limit on a Facebook post is 63, 206 characters. Whereas, for a tweet on Twitter the character limit is 140 characters and the character limit is 80 per post for Snapchat.
+
+Determining character limits become crucial when the tweet and Facebook post updates are being done through api’s.
+
+Note: This program would not run on online compilers. Please make a txt file on your system and give its path to run this program on your system.
+
+filter_none
