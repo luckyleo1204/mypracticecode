@@ -1,17 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="956" started-at="2019-04-02T08:02:10Z" finished-at="2019-04-02T08:02:11Z">
+  <suite name="Default suite" duration-ms="89606" started-at="2019-04-05T11:20:37Z" finished-at="2019-04-05T11:22:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="956" started-at="2019-04-02T08:02:10Z" finished-at="2019-04-02T08:02:11Z">
-      <class name="javaPra.excelTest">
-        <test-method status="PASS" signature="TestExcel()[pri:0, instance:javaPra.excelTest@6f7fd0e6]" name="TestExcel" duration-ms="937" started-at="2019-04-02T13:32:10Z" finished-at="2019-04-02T13:32:11Z">
+    <test name="Default test" duration-ms="89606" started-at="2019-04-05T11:20:37Z" finished-at="2019-04-05T11:22:06Z">
+      <class name="Selenium.dataDrivenExample">
+        <test-method status="PASS" signature="facebookTest(java.lang.String, java.lang.String)[pri:0, instance:Selenium.dataDrivenExample@6a4f787b]" name="facebookTest" duration-ms="50455" started-at="2019-04-05T16:50:37Z" data-provider="FacebookData" finished-at="2019-04-05T16:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cp.murali@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mu5ra5li]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestExcel -->
-      </class> <!-- javaPra.excelTest -->
+        </test-method> <!-- facebookTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium.dataDrivenExample@6a4f787b]" name="teardown" is-config="true" duration-ms="0" started-at="2019-04-05T16:51:27Z" finished-at="2019-04-05T16:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="facebookTest(java.lang.String, java.lang.String)[pri:0, instance:Selenium.dataDrivenExample@6a4f787b]" name="facebookTest" duration-ms="39105" started-at="2019-04-05T16:51:27Z" data-provider="FacebookData" finished-at="2019-04-05T16:52:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cp.murali@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mu5ra5li]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium.dataDrivenExample@6a4f787b]" name="teardown" is-config="true" duration-ms="0" started-at="2019-04-05T16:52:06Z" finished-at="2019-04-05T16:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="testDatafromDataProvider(int, int)[pri:0, instance:Selenium.dataDrivenExample@6a4f787b]" name="testDatafromDataProvider" duration-ms="0" started-at="2019-04-05T16:52:06Z" data-provider="TestuserData" finished-at="2019-04-05T16:52:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatafromDataProvider -->
+        <test-method status="PASS" signature="testDatafromDataProvider(int, int)[pri:0, instance:Selenium.dataDrivenExample@6a4f787b]" name="testDatafromDataProvider" duration-ms="1" started-at="2019-04-05T16:52:06Z" data-provider="TestuserData" finished-at="2019-04-05T16:52:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatafromDataProvider -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium.dataDrivenExample@6a4f787b]" name="teardown" is-config="true" duration-ms="0" started-at="2019-04-05T16:52:06Z" finished-at="2019-04-05T16:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium.dataDrivenExample@6a4f787b]" name="teardown" is-config="true" duration-ms="0" started-at="2019-04-05T16:52:06Z" finished-at="2019-04-05T16:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Selenium.dataDrivenExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
